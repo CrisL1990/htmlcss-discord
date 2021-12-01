@@ -118,4 +118,31 @@ header .container .row nav ul li a{
     font-weight: 400;
 }
 
+.download{
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.fas{
+    margin-right: 10px;
+}
+.browser{
+    display: inline-block;
+    margin-top: 30px;
+    background-color:black;
+    padding: 16px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.jumbo-btn{
+    position: relative;
+    text-align: center;
+}
 /*Fine jumbotron*/
