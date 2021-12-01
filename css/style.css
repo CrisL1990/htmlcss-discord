@@ -1,6 +1,83 @@
-
+/*Inizio common*/
 * { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
+/*Fine common*/
+
+/*Inizio header*/
+/*Inizio impostazioni generali sezione*/
+header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(38, 71, 216)
+}
+
+header .container{
+    height: 70px;
+    margin: auto;
+    width: 80%;
+    max-width: 1180px;
+}
+
+.row{
+    height: 70px;
+    line-height: 70px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Fine impostazioni generali sezione*/
+
+/*Inizio logo*/
+header .container .logo{
+    float: left;
+    line-height: 70px;
+    width: 15%;
+}
+
+.logo-img{
+    vertical-align: middle;
+    line-height: 70px;
+}
+/*Fine logo*/
+
+/*Inizio nav*/
+nav{
+    float: left;  
+}
+
+header .container .row nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .container .row nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+/*Fine nav*/
+
+/*Inizio Login*/
+.login-link{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    border: solid black 1px;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.login{
+    float: right;
+    display: inline;
+    
+}
+
+/*FineLogin*/
