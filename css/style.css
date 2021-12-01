@@ -82,3 +82,40 @@ header .container .row nav ul li a{
     text-align: center;
 }
 /*FineLogin*/
+/*Fine header*/
+
+/*Inizio jumbotron*/
+#jumbotron{
+    position: relative;
+    height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.jumbo-content{
+    position: absolute;
+    width: 40%;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbo-title{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.jumbo-par{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/*Fine jumbotron*/
