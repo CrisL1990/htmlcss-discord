@@ -49,12 +49,14 @@ header .container .logo{
 
 /*Inizio nav*/
 nav{
-    float: left;  
+    float: left;
+    width: 70%;
+    text-align: center;
 }
 
 header .container .row nav ul li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 header .container .row nav ul li a{
@@ -75,9 +77,8 @@ header .container .row nav ul li a{
 }
 
 .login{
+    width: 15%;
     float: right;
-    display: inline;
-    
+    text-align: center;
 }
-
 /*FineLogin*/
