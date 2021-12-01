@@ -296,11 +296,14 @@ footer{
 
 .col{
     display: inline;
-    
     width: calc(70%/4);
     float: left;
-    height: 500px;
-    border: solid white 1px;
+    height: 350px;
+}
+
+.col-title{
+    margin-top: 70px;
+    color: rgb(96, 115, 211);
 }
 
 .col-1{
@@ -308,10 +311,37 @@ footer{
 }
 
 .footer-title-col-1{
-    display: inline-block;
+    display: block;
     width: 60%;
-    margin-top: 70px;
-    color: rgb(96, 115, 211);
     font-size: 25px;
+}
+
+.footer-ul li a{
+    text-decoration: none;
+}
+
+.footer-ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer .col ul li a{
+    color: white;
+    font-size: 13px;
+} 
+
+hr{
+    background-color: rgb(96, 115, 211);
+   
+}
+
+.logo-footer{
+    width: 8%;
+    margin-top: 20px;
+}
+
+#ita{
+    width: 20px;
+    margin-top: 20px;
 }
 /*Fine footer*/
