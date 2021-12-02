@@ -164,8 +164,6 @@ header .container .row nav ul li a{
 /*Fine jumbotron*/
 
 /*Inizio main*/
-
-
 /*Inizio section 1 e 3*/
 .section-1, .section-2{
     width: 80%;
@@ -191,13 +189,6 @@ header .container .row nav ul li a{
 
 .section-1 .section-text{
     float: right; 
-}
-
-.section-1 .section-text{
-    padding-top: 30px;
-    margin-right: 100px;
-    float: right;
-    width: 25%;
 }
 
 .section-1 .section-text .text, .section-2 .section-text .text{
@@ -257,8 +248,8 @@ header .container .row nav ul li a{
         width: 50%;
         height: 100px;
         margin: auto;
-        background-size: contain;
-        background-position: center;
+        background-size:cover;
+        background-position:cover;
         background-image: url("../img/stars.svg");
     }
 
@@ -299,6 +290,7 @@ footer{
     width: calc(70%/4);
     float: left;
     height: 350px;
+    border-bottom: solid rgb(96, 115, 211) 1px;
 }
 
 .col-title{
@@ -308,6 +300,7 @@ footer{
 
 .col-1{
     width: 30%;
+    height: 420px;
 }
 
 .footer-title-col-1{
@@ -330,11 +323,6 @@ footer{
     font-size: 13px;
 } 
 
-hr{
-    background-color: rgb(96, 115, 211);
-   
-}
-
 .logo-footer{
     width: 8%;
     margin-top: 20px;
@@ -342,6 +330,23 @@ hr{
 
 #ita{
     width: 20px;
+    margin-top: 20px;
+}
+
+.registrati{
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.social-icon{
+    color: white;
+    margin-right: 15px;
+}
+
+.social{
     margin-top: 20px;
 }
 /*Fine footer*/
